@@ -5,7 +5,7 @@
 ### 镜像构建
 
 ```
-git clone http://gitlab.sgmw.com.cn/chenxixian/imgurl.git
+git clone https://ecs.chenxixian.cn/chenxixian/imgurl.git
 cd imgurl
 docker build -t samchenxx/imgurl:1.0.0 .
 ```
@@ -34,7 +34,7 @@ docker load -i samchenxx-imgurl.tar
 ### 镜像构建和打包(为了离线安装)
 
 ```
-git clone http://gitlab.sgmw.com.cn/chenxixian/imgurl.git
+git clone https://ecs.chenxixian.cn/chenxixian/imgurl.git
 cd imgurl
 ./build.sh
 ```
@@ -43,7 +43,7 @@ cd imgurl
 
 如果紧接上一步，可以直接执行；
 
-如果需要离线安装，先把上一步打包好的文件（helloxz-imgurl.tar）scp到服务器imgurl路径（git clone http://gitlab.sgmw.com.cn/chenxixian/imgurl.git 克隆项目的路径），再执行：
+如果需要离线安装，先把上一步打包好的文件（helloxz-imgurl.tar）scp到服务器imgurl路径（git clone https://ecs.chenxixian.cn/chenxixian/imgurl.git 克隆项目的路径），再执行：
 
 ```
 ./setup.sh
