@@ -28,7 +28,7 @@ docker save -o samchenxx-imgurl.tar samchenxx/imgurl:1.0.0
 docker load -i samchenxx-imgurl.tar 
 ```
 
-## 官方版本
+## 官方版本(Apache/2.4.10 (Debian) PHP/7.1.29)
 
 
 ### 镜像构建和打包(为了离线安装)
