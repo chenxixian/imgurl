@@ -1,6 +1,6 @@
 # imgurl for Docker
 
-## 自建版本
+## 自建版本(基于Centos7的LNMP环境 软件版本 nginx:latest mysql:5.7 php:7.2)
 
 ### 镜像构建
 
